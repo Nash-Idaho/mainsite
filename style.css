@@ -1,0 +1,86 @@
+
+
+
+/*for the nav menu*/
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.navbar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("navbarimage.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.swordicon {
+  max-width: 150px;
+  max-height: 75px;
+}
+.swordicon:hover {
+max-width: 165px;
+transition: 1s;
+
+}
+
+.primary-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}  
+
+.primary-navigation a {
+  
+  font-size: x-large; 
+  color: rgb(255, 255, 255);
+  margin-inline-end: 1em;
+  font-family: 'New Rocker', cursive;
+  transition: 1s;
+}
+
+.primary-navigation a:hover {
+  font-size: 200%;
+  color: crimson;
+  font-family: 'Creepster', cursive;
+  transition: 1s;
+
+}
+
+
+
+.signupform {
+  display: inline-flex;
+  align-items: stretch;
+  align-items: center;
+  margin-bottom: -50px;
+  margin-left: 50px;
+}
+  
+
+.mc-embedded-signup-scroll  h2{
+  
+  color: white;
+}
+
+.mc-field-group label {
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 120px;
+  text-align: left;
+  display: inline-block;
+    
+}
+
+#mc_embed_signup .button {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 12px;
+  
+}
+
